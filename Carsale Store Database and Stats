@@ -1,0 +1,7 @@
+CREATE TABLE rundowncars(id INTEGER PRIMARY KEY, car TEXT, price INTEGER);
+
+INSERT INTO rundowncars VALUES(1, "BMW", 2500);
+INSERT INTO rundowncars VALUES(2, "ACURA", 3500);INSERT INTO rundowncars VALUES(3, "MERCEDES", 5500);
+SELECT * FROM rundowncars;
+
+SELECT * FROM rundowncars ORDER BY price DESC; 
